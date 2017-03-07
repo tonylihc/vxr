@@ -14,7 +14,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
+      name: 'Index',
       component: getModule("Index")
     }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
   ]{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
